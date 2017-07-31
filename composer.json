@@ -1,0 +1,22 @@
+{
+    "name": "shcode/laravel-stapler-gcs",
+    "description": "GCS support for CodeSleeve/laravel-stapler",
+    "license": "MIT",
+    "keywords": ["laravel", "file", "upload", "GCS", "stapler", "paperclip"],
+    "authors": [
+        {
+            "name": "M. Sulton Hasanuddin",
+            "email": "shcode@live.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+             "Shcode\\Stapler\\": "src/"
+        }
+    },
+    "require": {
+        "laravel/framework": "5.*",
+        "codesleeve/laravel-stapler": "1.0.*",
+        "superbalist/flysystem-google-storage": "^5.0"
+    }
+}
