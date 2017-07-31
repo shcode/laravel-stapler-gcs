@@ -18,5 +18,9 @@
         "laravel/framework": "5.*",
         "codesleeve/laravel-stapler": "1.0.*",
         "superbalist/flysystem-google-storage": "^5.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0",
+        "mockery/mockery": "0.9.*"
     }
 }
